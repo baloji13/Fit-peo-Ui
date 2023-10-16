@@ -1,0 +1,551 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.fitpeo{
+    height: 100vh;
+    width: 100%;
+    border-radius: 3px;
+    display: flex;
+
+}
+.fitpeo>.dashboard{
+    height: 100%;
+    width: 15%;
+    background-color:rgb(4,4,64);
+    
+}
+.fitpeo>.dashboard>.dash{
+    height: 8%;
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(251,251,252);
+    /* background-color:rgb(45,45,105) ; */
+}
+li{
+    list-style: none;
+}
+.fitpeo>.dashboard>.dashlist{
+    height: 84%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+   
+}
+.fitpeo>.dashboard>.dashlist>.list{
+    height: 80%;
+    width: 80%;
+    display: flexbox;
+    margin-top: 20px;
+}
+.fitpeo>.dashboard>.dashlist>.list>.logo1{
+    height: 8%;
+    display: flex;
+    justify-content: space-around;
+    color: rgb(251,251,252);
+    background-color:rgb(45,45,105) ;
+}
+.fitpeo>.dashboard>.dashlist>.list>.logo{
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(251,251,252);
+}
+.fitpeo>.dashboard>.dashlist>.list>.logo>.brand{
+    width: 30%;
+}
+.fitpeo>.dashboard>.dashlist>.list>.logo>.sym{
+    width: 10%;
+    
+}
+.fitpeo>.dashboard>.dashlist>.list>.logo>.dat{
+    width: 50%;
+}
+
+.fitpeo>.dashboard>.dashlist>.list>.logo1>.brand{
+    width: 30%;
+}
+.fitpeo>.dashboard>.dashlist>.list>.logo1>.sym{
+    width: 10%;
+    
+}
+.fitpeo>.dashboard>.dashlist>.list>.logo1>.dat{
+    width: 50%;
+}
+.fitpeo>.dashboard>.profile{
+    height: 8%;
+    width: 95%; 
+    display: flex;
+   justify-content:space-around; 
+   align-items: center;
+   background-color: rgb(45,45,105);
+}
+.fitpeo>.dashboard>.profile>.prof{
+    height: 70%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+.fitpeo>.dashboard>.profile>.prof>img{
+    height: 100%;
+    width: 60%;
+    border-radius: 70%;
+}
+.fitpeo>.dashboard>.profile>.ab{
+    height: 80%;
+    width: 75%;
+    display: flexbox;
+    align-items: flex-start;
+    /* padding-bottom: 10px; */
+}
+.fitpeo>.mainpage{
+    height: 100%;
+    width: 85%;
+
+    background-color:rgb(245,246,248);
+}
+.fitpeo>.mainpage>.head{
+    height: 6%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.fitpeo>.mainpage>.head>.headcontainer{
+    height: 100%;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fitpeo>.mainpage>.head>.headcontainer>.headern{
+    color: rgb(13,14,14);
+}
+.fitpeo>.mainpage>.content{
+    height: 22%;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    
+}
+.fitpeo>.mainpage>.content>.details{
+height: 100%;
+width: 95%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+/* background-color: aqua; */
+}
+.fitpeo>.mainpage>.content>.details>#earning1{
+    height: 90%;
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 3px;
+    background-color: rgb(255,255,255);
+   
+}
+.fitpeo>.mainpage>.content>.details>#earning1>.icon1{
+    height: 60%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0,163,51);
+    background-color:rgb(221,255,238);
+    border-radius: 60%;
+
+}
+.fitpeo>.mainpage>.content>.details>#earning1>.data1{
+    height: 100%;
+    width: 60%;
+    
+    display:table-cell;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 10px;
+}
+.fitpeo>.mainpage>.content>.details>#earning1>.icon2{
+    height: 60%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(161,14,255);
+    background-color:rgb(231,219,255);
+    border-radius: 60%;
+
+}
+.fitpeo>.mainpage>.content>.details>#earning1>.icon3{
+    height: 60%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0,81,189);
+    background-color:rgb(204,242,255);
+    border-radius: 60%;
+
+}
+.fitpeo>.mainpage>.content>.details>#earning1>.data3{
+    height: 100%;
+    width: 60%;
+    
+    display:table-cell;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 10px;
+}
+.fitpeo>.mainpage>.content>.details>#earning1>.icon4{
+    height: 60%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(216,4,5);
+    background-color:rgb(255,173,214);
+    border-radius: 60%;
+
+}
+.fitpeo>.mainpage>.content>.details>#earning1>.data4{
+    height: 100%;
+    width: 60%;
+    
+    display:table-cell;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 10px;
+}
+.fitpeo>.mainpage>.content>.details>#earning1>.data2{
+    height: 100%;
+    width: 60%;
+    
+    display:table-cell;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 10px;
+}
+.fitpeo>.mainpage>.content>.details>#earning1>.data1>ArrowDownwardIcon{
+    font-size: small;
+}
+.fitpeo>.mainpage>.content>.details>#earning2{
+    height: 90%;
+    width: 20%;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: black;
+    background-color: rgb(255,255,255);
+}
+.fitpeo>.mainpage>.content>.details>#earning3{
+    height: 90%;
+    width: 20%;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: black;
+    background-color:rgb(255,255,255);
+}
+ .fitpeo>.mainpage>.content>.details>#earning4{
+    height: 90%;
+    width: 20%;
+    border-radius: 3px;
+    border-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255,255,255);
+} 
+.fitpeo>.mainpage>.overview{
+    height: 43%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fitpeo>.mainpage>.overview>.graph{
+    height: 100%;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fitpeo>.mainpage>.overview>.graph>.chart{
+    height: 90%;
+    width: 65%;
+    display: flexbox;
+   
+    border-radius: 3px;
+    background-color: rgb(255,255,255);
+}
+.fitpeo>.mainpage>.overview>.graph>.chart>.over{
+    height: 20%;
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.fitpeo>.mainpage>.overview>.graph>.chart>.over>.heading{
+    height: 100%;
+    width: 70%;
+}
+.fitpeo>.mainpage>.overview>.graph>.chart>.over>.cap{
+    height: 50%;
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+}
+.fitpeo>.mainpage>.overview>.graph>.chart>.up{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 10px;
+    justify-content: space-around;
+}
+.fitpeo>.mainpage>.overview>.graph>.chart>.up>.jan{
+    height: 70%;
+    width: 5%;
+    border-radius: 7px;
+    background-color: rgb(242,239,255);
+}
+.fitpeo>.mainpage>.overview>.graph>.chart>.up>.feb{
+    height: 60%;
+    width: 5%;
+    border-radius: 7px;
+    background-color: rgb(242,239,255);
+}
+.fitpeo>.mainpage>.overview>.graph>.chart>.up>.mar{
+    height: 85%;
+    width: 5%;
+    border-radius: 7px;
+    background-color: rgb(242,239,255);
+}
+.fitpeo>.mainpage>.overview>.graph>.chart>.up>.apr{
+    height: 73%;
+    width: 5%;
+    border-radius: 7px;
+    background-color: rgb(242,239,255);
+}
+.fitpeo>.mainpage>.overview>.graph>.chart>.up>.may{
+    height: 80%;
+    width: 5%;
+    border-radius: 7px;
+    background-color: rgb(242,239,255);
+}
+.fitpeo>.mainpage>.overview>.graph>.chart>.up>.jun{
+    height: 40%;
+    width: 5%;
+    border-radius: 7px;
+    background-color: rgb(242,239,255);
+}
+.fitpeo>.mainpage>.overview>.graph>.chart>.up>.jul{
+    height: 82%;
+    width: 5%;
+    border-radius: 7px;
+    background-color: rgb(242,239,255);
+}
+.fitpeo>.mainpage>.overview>.graph>.chart>.up>.aug{
+    height: 95%;
+    width: 5%;
+    border-radius: 7px;
+    background-color: rgb(90,50,234);
+}
+.fitpeo>.mainpage>.overview>.graph>.chart>.up>.sep{
+    height: 85%;
+    width: 5%;
+    border-radius: 7px;
+    background-color: rgb(242,239,255);
+}
+.fitpeo>.mainpage>.overview>.graph>.chart>.up>.oct{
+    height: 77%;
+    width: 5%;
+    border-radius: 7px;
+    background-color: rgb(242,239,255);
+}
+.fitpeo>.mainpage>.overview>.graph>.chart>.up>.nov{
+    height: 67%;
+    width: 5%;
+    border-radius: 7px;
+    background-color: rgb(242,239,255);
+}
+.fitpeo>.mainpage>.overview>.graph>.chart>.up>.dec{
+    height: 73%;
+    width: 5%;
+    border-radius: 7px;
+    background-color: rgb(242,239,255);
+}
+.fitpeo>.mainpage>.overview>.graph>.chart>.months{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.fitpeo>.mainpage>.overview>.graph>.flow{
+    height: 90%;
+    width: 28%;
+    border-radius: 3px;
+    background-color:rgb(255,255,255);
+}
+.fitpeo>.mainpage>.overview>.graph>.flow>.note{
+    height: 20%;
+   width: 100%;
+}
+.fitpeo>.mainpage>.overview>.graph>.flow>.num{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+     align-items: center;
+}
+
+.fitpeo>.mainpage>.footer{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.fitpeo>.mainpage>.footer>.footercontainer{
+    height: 100%;
+    width: 95%;
+    display: flexbox;
+    justify-content: space-between;
+    align-items: center;
+}
+.fitpeo>.mainpage>.footer>.footercontainer>.productsell{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.fitpeo>.mainpage>.footer>.footercontainer>.productsell>h3{
+    height: 100%;
+    width: 67%;
+}
+.fitpeo>.mainpage>.footer>.footercontainer>.productsell>.fline1{
+    height: 100%;
+    width: 27%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.fitpeo>.mainpage>.footer>.footercontainer>.product{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    
+}
+.fitpeo>.mainpage>.footer>.footercontainer>.product>.name{
+    height: 100%;
+    width: 64%;
+}
+.fitpeo>.mainpage>.footer>.footercontainer>.product>.fline2{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.fitpeo>.mainpage>.footer>.footercontainer>.product1{
+    height: 32%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.fitpeo>.mainpage>.footer>.footercontainer>.product1>.product1img{
+    height: 95%;
+    width: 12%;
+    border-radius: 2px;
+    
+}
+.fitpeo>.mainpage>.footer>.footercontainer>.product1>.product1img>img{
+    height: 100%;
+    width: 100%;
+    border-radius: 7px;
+}
+.fitpeo>.mainpage>.footer>.footercontainer>.product2>.product2img{
+    height: 95%;
+    width: 12%;
+    border-radius: 2px;
+    
+}
+.fitpeo>.mainpage>.footer>.footercontainer>.product2>.product2img>img{
+height: 100%;
+width: 100%;
+border-radius: 7px;
+}
+.fitpeo>.mainpage>.footer>.footercontainer>.product1>.product1about{
+    height: 98%;
+    width: 50%;
+    border-radius: 2px;
+    padding-top: 10px;
+}
+.fitpeo>.mainpage>.footer>.footercontainer>.product2>.product2about{
+    height: 98%;
+    width: 50%;
+    border-radius: 2px;
+   padding-top: 10px;
+}
+.fitpeo>.mainpage>.footer>.footercontainer>.product2{
+    height: 32%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    
+}
+
+
+.fitpeo>.mainpage>.footer>.footercontainer>.product1>.fline3{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    color: rgb(78,78,78);
+}
+.fitpeo>.mainpage>.footer>.footercontainer>.product2>.fline4{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(78,78,78);
+}
+input{
+    border: none; 
+}p{
+    color: rgb(191,194,211);
+}
+span{
+    color: rgb(102,200,130);
+    font-size: small;
+    font-family: 'Times New Roman', Times, serif;
+}
+span1{
+    color: rgb(206,21,53);
+    font-size: small;
+    font-family: 'Times New Roman', Times, serif;
+}
+select{
+    border: none;
+    text-decoration: none;
+}
